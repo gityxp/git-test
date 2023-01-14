@@ -1,0 +1,25 @@
+ul li {
+  list-style: none;
+  height: 30px;
+  line-height: 30px;
+  margin: 10px;
+  border: 2px solid #ccc;
+  width: 400px;
+}
+li button {
+  float: right;
+  height: 25px;
+  line-height: 25px;
+  background-color: red;
+  color: #fff;
+  border: none;
+  outline: none;
+  margin-top: 3px;
+  margin-right: 5px;
+  display: none;
+  cursor: pointer;
+}
+
+ul li:hover button {
+  display: block;
+}
